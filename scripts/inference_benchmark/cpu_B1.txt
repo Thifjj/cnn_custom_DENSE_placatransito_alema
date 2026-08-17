@@ -1,0 +1,36 @@
+========================================
+MODEL-ONLY
+========================================
+Device               : CPU
+Batch size           : 1
+Total batches        : 12630
+Total images         : 12630
+Accuracy             : 95.81%
+Throughput           : 153.39 images/s
+Mean latency/batch   : 6.5194 ms
+Median latency/batch : 6.2227 ms
+Min latency/batch    : 6.0652 ms
+Max latency/batch    : 14.4385 ms
+P90 latency/batch    : 7.3010 ms
+P95 latency/batch    : 7.9792 ms
+P99 latency/batch    : 9.4868 ms
+Mean latency/image   : 6.519353 ms
+
+========================================
+END-TO-END
+========================================
+Device               : CPU
+Batch size           : 1
+Total batches        : 12630
+Total images         : 12630
+Accuracy             : 95.81%
+Throughput           : 155.06 images/s
+Mean latency/batch   : 6.4493 ms
+Median latency/batch : 6.3844 ms
+Min latency/batch    : 6.2511 ms
+Max latency/batch    : 11.2346 ms
+P90 latency/batch    : 6.5895 ms
+P95 latency/batch    : 6.8875 ms
+P99 latency/batch    : 7.5063 ms
+Mean latency/image   : 6.449299 ms
+========================================
